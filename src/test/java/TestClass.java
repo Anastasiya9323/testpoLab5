@@ -54,14 +54,12 @@ public class TestClass {
         if (authPage.cancelBtnExist()){
             authPage.cancelBtnClick();
         }
-        authPage.inputLogin("victoria.tomlinson@mail.ru");
-//        authPage.inputLogin("89872211243");
-//        authPage.inputLogin("79178763355");
+        authPage.inputLogin("");
+//        authPage.inputLogin("");
         authPage.clickLoginBtn();
 //        Thread.sleep(10000);
 //        authPage.loginWithPassword();
-//        authPage.inputPasswd("56e565656ifhbr");
-        authPage.inputPasswd("yfcnzFUTYN007");
+        authPage.inputPasswd("");
         authPage.continueClick();
         if (newsPage.cameraOpenBtnExist()){
             swipeMethod(0.90);
